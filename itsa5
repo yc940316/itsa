@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+
+    int n;
+    int m;
+    scanf ("%d", &n);
+    for (int i = 0; i < n; i++){
+        scanf("%d", &m);
+        printf("%d %d %d\n", m, m * m, m * m * m);
+    }
+
+
+
+
+	return 0;
+}
