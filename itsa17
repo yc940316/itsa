@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+
+int main(int argc, char *argv[]) {
+
+    int a1, a2, b1, b2;
+    double d;
+    scanf("%d %d", &a1, &a2);
+    scanf("%d %d", &b1, &b2);
+    d = sqrt((a1-b1)*(a1-b1)+(a2-b2)*(a2-b2));
+    printf("%.2f\n",d);
+
+
+	return 0;
+}
