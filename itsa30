@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+
+    double c;
+    double f;
+    scanf("%lf", &c);
+    f = (c * 1.8) + 32;
+    printf("%.1f\n", f);
+
+
+
+	return 0;
+}
