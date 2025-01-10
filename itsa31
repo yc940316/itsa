@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+
+    int w, h;
+    double bmi;
+    scanf("%d %d", &w, &h);
+    bmi = (double)w/(h*h)*10000;
+    printf("%.2f\n", bmi);
+
+
+
+	return 0;
+}
