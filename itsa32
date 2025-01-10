@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+
+    int t, s;
+    double b;
+    scanf("%d %d", &t, &s);
+    b = 60*s + 60*s*1.33 + (t-120)*s*1.66;
+    printf("%.1f\n", b);
+
+
+
+	return 0;
+}
